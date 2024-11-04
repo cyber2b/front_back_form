@@ -16,6 +16,7 @@ header,footer{
   display: flex;
   background: linear-gradient(#1cb6d1);
   justify-content: center;
+  color: #0e6d7e;
 }
 footer{
   background: linear-gradient( #9b31dc);
@@ -36,7 +37,4 @@ input{
   size: 10px;
   border-radius: 10px;
   
-}
-.content #sub{
-  size: 100px;
 }
