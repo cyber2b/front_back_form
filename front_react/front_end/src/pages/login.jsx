@@ -1,11 +1,14 @@
+
 import "./login.css";
 import { Link } from "react-router-dom";
 
+
 function Login() {
+ 
   return (
     <>
       <div className="card">
-        <div>
+        <div id="box">
           <form>
             <div className="content">
               <label for="name">Name :</label>
@@ -19,13 +22,14 @@ function Login() {
               <label for="pass">Passw :</label>
               <input type="password" id="pass"></input>
             </div>
-            <div className="content" >
-              <button>
-                <Link to="/dash">Login</Link>
-              </button>
-              <button>
-                <Link to="/signup">New user</Link>
-              </button>
+            <div className="content">
+              <Link to="/dash">
+                <button>Login</button>
+              </Link>
+
+              <Link to="/sign">
+                <button>New user</button>
+              </Link>
             </div>
             <div className="content"></div>
           </form>
