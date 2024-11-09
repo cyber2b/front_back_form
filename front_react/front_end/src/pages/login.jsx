@@ -9,6 +9,7 @@ function Login() {
     <>
       <div className="card">
         <div id="box">
+          <div className="heading"><h1>Login</h1></div>
           <form>
             <div className="content">
               <label for="name">Name :</label>

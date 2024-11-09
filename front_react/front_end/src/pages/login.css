@@ -10,14 +10,19 @@
     box-shadow: 15px 15px 30px rgb(25, 25, 25),
         -15px -15px 30px rgb(60, 60, 60);
 }
-
+.heading{
+    color: #d85151;
+}
 .content{
     display: flex;
     margin: 10px;
     padding-top: 10px;
-    justify-content: center;
+    margin-top: 30%;
     color: bisque;
-    justify-items: stretch;
+   justify-content: center;
+}
+input{
+    size: 100px
 }
 /*for button*/
 button {
@@ -66,5 +71,7 @@ button:active {
 }
 #box{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   
 }
