@@ -4,8 +4,14 @@
     height: 200px;
     perspective: 1000px;
     margin: 100px auto;
+    
 }
-
+#full{
+    background-image: linear-gradient(
+                #af40ff,
+                #5b42f3 50%,
+                #00ddeb);
+}
 .rubiks-cube {
     width: 100%;
     height: 100%;

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Dashboard() {
   return (
-    <>
-      <div className="my-loader">
+    <><div id="full">
+    <div className="my-loader">
   <div className="rubiks-cube">
     <div className="face front">
       <div style={{background: '#ff3d00'}} className="cube" />
@@ -80,6 +80,7 @@ function Dashboard() {
               </Link>
 
               
+            </div>
             </div>
     </>
   );
