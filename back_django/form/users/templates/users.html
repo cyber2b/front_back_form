@@ -1,11 +1,14 @@
-<center><h1 class="heading">logins</h1>
+<h1 class="heading">logins</h1>
+<ol>
 {% for post in posts %}
-<h1>{{post.name}}</h1>
-<h1>{{post.email}}</h1>
+
+    <li><h3>Name :{{post.name}}</h3><span><h3>Email :{{post.email}}</h3></span></li>
+    
+
 {% endfor %}
+</ol>
 <style>
     .heading{
         color: blue;
     }
 </style>
-</center>
